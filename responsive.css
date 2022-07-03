@@ -1,0 +1,45 @@
+@media (min-width: 0px) and (max-width: 375px) {
+    .responsive-top-margin{
+        margin-top: 70px;
+    }
+    .profile-link {
+        width: 227px;
+    }
+    .h1-text {
+        font-size: 2.6rem;
+        
+    }
+    .contect-me {
+        width: 235px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .responsive-top-margin{
+        margin-top: 57px;
+    }
+}
+@media (min-width: 414px) and (max-width: 769px) {
+    .responsive-top-margin{
+        margin-top: 55px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+    .responsive-top-margin{
+        margin-top: 110px;
+    }
+    .col-lg-overlap{
+        margin-left: 95px;
+    
+    }
+    .des-text{
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 630px) {
+    .content {
+      width: 100%;
+      padding: 0 2rem;
+    }
+  }
+  
