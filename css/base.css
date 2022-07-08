@@ -18,11 +18,11 @@
 }
 
 *{
-    cursor: url('/assets/images/papper.png'),auto;
+    cursor: url('/hey/images/papper.png'),auto;
 }
 
 .click{
-  cursor: url('/assets/images/click-here.png'),auto;
+  cursor: url('/hey/images/click-here.png'),auto;
 }
 body {
   position: relative;
