@@ -1,0 +1,36 @@
+.resume-img-box{
+  display: block;
+  position: relative;
+  width: 43.75rem;
+  height: 56.25rem;
+  background: #ebecf0;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+@media (max-width: 600px) {
+  .resume-img-box{    
+    width: 22rem;
+    height: 33rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .resume-img-box{    
+    width: 34rem;
+    height: 49rem;
+  }
+}
+
+.profile-link .text{    
+  text-align: center;
+  background: linear-gradient(to right, #012e8d, #56afaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.62rem;  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  margin-left: 1.5rem;
+}

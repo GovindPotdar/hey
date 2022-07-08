@@ -1,0 +1,83 @@
+
+
+.footer-section{
+  /* height: inherit; */
+  box-shadow: -5px -5px 15px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  transition: box-shadow 0.10s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+  bottom: 0;
+}
+
+.footer-text{
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#30CFD0), to(#330867));
+  background: linear-gradient(to right, #185ef0, #41c7c7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+}
+
+/* find me on css */
+
+i {
+  color: #b6bbc5;
+}
+
+
+.container-center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.box-icon {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+}
+        
+.box-icon:hover {
+  box-shadow: 
+    inset 1rem 1rem 2rem rgba(0, 0, 0, .1),
+    inset -1rem -1rem 2rem rgba(255, 255, 255, .5);
+    
+}
+
+.box-icon .fab:hover{
+    color: #0a58ff;
+}
+.box-icon:active {
+  box-shadow: none;
+  background: linear-gradient(to right, #0a58ff, #3feeee);
+
+}
+
+.box-icon > i {
+  font-size: 3rem;
+}
+
+.content-find{
+  display: block;
+  position: relative;
+  background: #ebecf0;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  -webkit-transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+  border-radius: 20px;
+  margin-top: 75px;
+}

@@ -1,0 +1,177 @@
+
+.profile-link{
+  width: 266px;
+  height: 65px;
+  background-color: #efeeee;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 3rem;
+  /* list-style-type: none; */
+  margin-top: 26px;
+  margin-left: 10px;
+  
+}
+
+.profile-link:hover{
+  background-color: #eceaea;
+  box-shadow: -6px -6px 15px rgb(255 255 255), 6px 6px 15px rgb(121 130 160 / 75%);
+}
+
+.profile-link p{    
+  margin-top: 17px;
+  text-align: center;
+  line-height: 28px;
+  background: linear-gradient(to right, #012e8d, #56afaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.62rem;  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+}
+.profile-link p:hover{    
+ 
+  background: linear-gradient(to right, #042366, #317676);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  transition: 10s;
+}
+
+
+.fab{
+  color: black;
+}
+
+.front-img-box{
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #ebecf0;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 100px 100px 10px;
+}
+
+
+.front-text-box{
+  display: block;
+  position: relative;
+  /* width: 175px;
+  height: 175px; */
+  padding: 10px;
+  background: #ebecf0;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 20px;
+}
+
+
+.front-img-box:hover{
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 50px; 
+}
+
+.des-text{
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 40px;
+  background: -webkit-gradient(linear, left top, right top, from(#30CFD0), to(#330867));
+  background: linear-gradient(to right, #185ef0, #41c7c7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+}
+
+.h1-text{
+  text-align: center;
+  line-height: 64px;
+  font-weight: 500;
+  background: linear-gradient(to right, #0a58ff, #3feeee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto",serif;  
+  font-size: 4rem;  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+}
+.h2-text{
+  text-align: center;
+  line-height: 64px;
+  font-weight: 500;
+  background: linear-gradient(to right, #0a58ff, #3feeee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto",serif;
+  font-size: 3rem;  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+}
+.h3-text{
+  text-align: center;
+  line-height: 28px;
+  background: linear-gradient(to right, #012e8d, #3feeee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+font-size: 1.5rem;  
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+}
+
+
+
+/* freelancing css */
+.front-img-box-second{
+  display: block;
+  position: relative;
+  width: 206px;
+  height: 206px;
+  background: #ebecf0;
+  box-shadow: -5px -5px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 20px 70px;
+  
+}
+.front-img-box-second:hover{
+  border-radius: 70px 20px;
+  transition: 1s;
+}
+
+.freelancing-box{
+  background: #ebecf0;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+
+.contect-me{
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 70px;
+  background: #ebecf0;
+  box-shadow: -5px -5px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 10px;
+}
+.contect-me p{
+  padding-top: 20px;
+  text-align: center;
+  line-height: 28px;
+  background: linear-gradient(to right, #012e8d, #56afaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem; 
+  font-weight: 500; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+}
+
+
+/*ends freelancing css */

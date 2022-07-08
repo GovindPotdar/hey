@@ -1,0 +1,22 @@
+.marquee-news{
+  width: 88vw;
+  height: 57px;
+  background-color: #efeeee;
+  box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 3rem;
+  margin-top: 26px;
+  margin-left: 10px;
+}
+
+.marquee-news-text{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: dimgray;
+  font-weight: 300px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  padding-top: 12px;
+}

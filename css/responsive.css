@@ -1,0 +1,86 @@
+@media (min-width: 0px) and (max-width: 375px) {
+    .responsive-top-margin{
+        margin-top: 70px;
+    }
+    .profile-link {
+        width: 227px;
+    }
+    .h1-text {
+        font-size: 2.6rem;
+        
+    }
+    .contect-me {
+        width: 235px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .responsive-top-margin{
+        margin-top: 57px;
+    }
+}
+@media (min-width: 414px) and (max-width: 769px) {
+    .responsive-top-margin{
+        margin-top: 55px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+    .responsive-top-margin{
+        margin-top: 110px;
+    }
+    .col-lg-overlap{
+        margin-left: 95px;
+    
+    }
+    .des-text{
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 630px) {
+    .content {
+      width: 100%;
+      padding: 0 2rem;
+    }
+}
+  
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: calc(var(--header-height) + 1rem) 0 0 0;
+        padding-left: calc(var(--nav-width) + 2rem)
+    }
+
+    .header {
+        height: calc(var(--header-height) + 1rem);
+        padding: 0 2rem 0 calc(var(--nav-width) + 2rem)
+    }
+
+    .header_img {
+        width: 40px;
+        height: 40px
+    }
+
+    .header_img img {
+        width: 45px
+    }
+
+    .l-navbar {
+        left: 0;
+        padding: 1rem 1rem 0 0;
+        background-color: #eeeeee;
+        
+
+        box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+        -webkit-transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+        transition: box-shadow 0.10s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+
+    }
+
+    .show {
+        width: calc(var(--nav-width) + 156px)
+    }
+
+    .body-pd {
+        padding-left: calc(var(--nav-width) + 188px)
+    }
+}
