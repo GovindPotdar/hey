@@ -1,5 +1,5 @@
 // if try to nevigate to other page then redirect to home page 
-if(location.host == "govindpotdar.github.io"){
+if(location.href != "https://govindpotdar.github.io/hey/" && location.host == "govindpotdar.github.io"){
   location.replace("https://govindpotdar.github.io/hey/")
 }
 
