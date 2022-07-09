@@ -31,6 +31,6 @@
   -webkit-text-fill-color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 1.62rem;  
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
-  margin-left: 1.5rem;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
+  margin-left: 5px;
 }

@@ -1,6 +1,6 @@
 
 .profile-link{
-  width: 266px;
+  /* width: 266px; */
   height: 65px;
   background-color: #efeeee;
   box-shadow: -4px -4px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
@@ -29,7 +29,7 @@
   -webkit-text-fill-color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 1.62rem;  
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
 }
 .profile-link p:hover{    
  
@@ -37,7 +37,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Roboto", sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
   transition: 10s;
 }
 
@@ -86,7 +86,7 @@
   -webkit-text-fill-color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;  
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
 }
 
 .h1-text{
@@ -99,7 +99,7 @@
   -webkit-text-fill-color: transparent;
   font-family: "Roboto",serif;  
   font-size: 4rem;  
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
 }
 .h2-text{
   text-align: center;
@@ -111,7 +111,7 @@
   -webkit-text-fill-color: transparent;
   font-family: "Roboto",serif;
   font-size: 3rem;  
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
 }
 .h3-text{
   text-align: center;
@@ -122,7 +122,7 @@
   -webkit-text-fill-color: transparent;
   font-family: "Roboto", sans-serif;
 font-size: 1.5rem;  
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
 }
 
 
@@ -150,28 +150,5 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
   padding: 20px;
   
 }
-
-.contect-me{
-  display: block;
-  position: relative;
-  width: 300px;
-  height: 70px;
-  background: #ebecf0;
-  box-shadow: -5px -5px 12px rgb(255 255 255), 4px 4px 12px rgb(121 130 160 / 75%);
-  border-radius: 10px;
-}
-.contect-me p{
-  padding-top: 20px;
-  text-align: center;
-  line-height: 28px;
-  background: linear-gradient(to right, #012e8d, #56afaf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem; 
-  font-weight: 500; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
-}
-
 
 /*ends freelancing css */

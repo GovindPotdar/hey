@@ -1,10 +1,9 @@
-
-
 .footer-section{
   /* height: inherit; */
   box-shadow: -5px -5px 15px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
   transition: box-shadow 0.10s cubic-bezier(0.79, 0.21, 0.06, 0.81);
   bottom: 0;
+  margin-left: 22px;
 }
 
 .footer-text{
@@ -19,7 +18,7 @@
   -webkit-text-fill-color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white; */
 }
 
 /* find me on css */
