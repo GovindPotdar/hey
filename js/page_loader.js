@@ -6,7 +6,13 @@ if(location.href != "https://govindpotdar.github.io/hey/" && location.host == "g
 
 // page loader funation
 function changePageContent(fileName){
-  $('#page-data').load(`html/${fileName}.html`)
+  const sidebarElement = document.getElementById(fileName);
+  $("a").removeClass("current_nav_link");
+  sidebarElement.classList.add('current_nav_link');
+  $('#page-data').load(`html/${fileName}.html`, function() {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+    $(this).hide().fadeIn(700);
+  });
 }
 
 // default home page loader
